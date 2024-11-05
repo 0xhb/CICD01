@@ -4,7 +4,7 @@ pipeline {
 		nodejs 'NodeJS'
 	}
 	environment {
-		SONAR_SCANNER_HOME = 'cicd01'
+		SONAR_SCANNER_HOME = '/home/hb/Downloads/sonar-scanner-6.2.1.4610-linux-x64'
 		SONAR_PROJECT_TOKEN = tool 'SonarQubeScanner'
 
 	}
